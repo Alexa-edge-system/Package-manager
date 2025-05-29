@@ -45,7 +45,7 @@ This guide provides step-by-step instructions to install and configure Apache Ma
 4. **Install Java (OpenJDK 11 and 1.8)**:
 
    
-   sudo yum install java-11-openjdk-devel java-1.8.0-openjdk-devel -y
+   sudo yum install java -y
    
 
 5. **Verify Installations**:
