@@ -60,7 +60,7 @@ This guide provides step-by-step instructions to install and configure Apache Ma
 1. **Download and Extract Maven**:
 
    
-   cd /opt
+   - cd /opt
    sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip
    sudo unzip apache-maven-3.9.9-bin.zip
    sudo rm -rf apache-maven-3.9.9-bin.zip
