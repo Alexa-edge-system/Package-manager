@@ -77,8 +77,8 @@ This guide provides step-by-step instructions to install and configure Apache Ma
    Add the following lines:
 
    
-   export M2_HOME=/opt/maven
-   export PATH=$PATH:$M2_HOME/bin
+   - export M2_HOME=/opt/maven
+   - export PATH=$PATH:$M2_HOME/bin
    
 
 3. **Apply the Profile Changes**:
