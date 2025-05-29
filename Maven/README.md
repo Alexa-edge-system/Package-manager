@@ -1,7 +1,7 @@
 # Alexa edge systems
-contact number : +33 609-878 741 or 237652249782
-website : https://alexaedgesystems.com/
-copyright :Alexa edge systems
+ - contact number : +33 609-878 741 or 237652249782
+ - website : https://alexaedgesystems.com/
+ - copyright :Alexa edge systems
 # 📦 Apache Maven Installation on AWS EC2 RedHat Instance
 
 This guide provides step-by-step instructions to install and configure Apache Maven on an AWS EC2 instance running Red Hat (RHEL).
