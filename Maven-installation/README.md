@@ -74,7 +74,7 @@ This guide provides step-by-step instructions to install and configure Apache Ma
    vi ~/.bash_profile
    
 
-   Add the following lines:
+  #  Add the following lines:
 
    
     export M2_HOME=/opt/maven
