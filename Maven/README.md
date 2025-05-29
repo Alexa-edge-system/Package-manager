@@ -19,79 +19,79 @@ This guide provides step-by-step instructions to install and configure Apache Ma
 1. Launch a new **RedHat EC2 Instance** (`t2.medium` recommended)
 2. Attach your configured **security group**
 3. Connect via SSH:
-   ```bash
+   bash
    ssh -i your-key.pem ec2-user@<EC2_PUBLIC_IP>
-````
+
 ## ⚙️ System Setup
 
 1. **Set the Hostname**:
 
-   ```bash
+   bash
    sudo hostnamectl set-hostname maven
-   ```
+   
 
 2. **Switch to ec2-user**:
 
-   ```bash
+   bash
    sudo su - ec2-user
-   ```
+  
 
 3. **Install Required Tools**:
 
-   ```bash
+   bash
    sudo yum install wget nano tree unzip git-all -y
-   ```
+   
 
 4. **Install Java (OpenJDK 11 and 1.8)**:
 
-   ```bash
+   bash
    sudo yum install java-11-openjdk-devel java-1.8.0-openjdk-devel -y
-   ```
+   
 
 5. **Verify Installations**:
 
-   ```bash
+   bash
    java -version
    git --version
-   ```
+   
 
 ## 🧰 Maven Installation
 
 1. **Download and Extract Maven**:
 
-   ```bash
+   bash
    cd /opt
    sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip
    sudo unzip apache-maven-3.9.9-bin.zip
    sudo rm -rf apache-maven-3.9.9-bin.zip
    sudo mv apache-maven-3.9.9/ maven
-   ```
+   
 
 2. **Set Environment Variables** (for current user):
    Edit the profile file:
 
-   ```bash
+   bash
    vi ~/.bash_profile
-   ```
+   
 
    Add the following lines:
 
-   ```bash
+   bash
    export M2_HOME=/opt/maven
    export PATH=$PATH:$M2_HOME/bin
-   ```
+   
 
 3. **Apply the Profile Changes**:
 
-   ```bash
+   bash
    source ~/.bash_profile
-   ```
+   
 
 4. **Verify Maven Installation**:
 
-   ```bash
+   bash
    mvn -version
-   ```
+   
 
    ✅ You should see the Maven version info if installed successfully.
 
