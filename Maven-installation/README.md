@@ -61,10 +61,10 @@ This guide provides step-by-step instructions to install and configure Apache Ma
 
    
    - cd /opt
-   sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip
-   sudo unzip apache-maven-3.9.9-bin.zip
-   sudo rm -rf apache-maven-3.9.9-bin.zip
-   sudo mv apache-maven-3.9.9/ maven
+   - sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip
+   - sudo unzip apache-maven-3.9.9-bin.zip
+   - sudo rm -rf apache-maven-3.9.9-bin.zip
+   - sudo mv apache-maven-3.9.9/ maven
    
 
 2. **Set Environment Variables** (for current user):
