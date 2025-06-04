@@ -92,11 +92,5 @@ starttomcat
 
 You should see the **Tomcat welcome page**.
 
----
 
-### 🧪 Optional: Enable Tomcat as a System Service
-
-Would you like to add instructions to run Tomcat as a systemd service (like `systemctl start tomcat`)? I can generate that too.
-
-Let me know if you'd like this formatted as a **PDF**, **Markdown**, or **WordPress blog post**.
 
