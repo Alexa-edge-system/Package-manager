@@ -45,12 +45,12 @@ sudo yum install java-1.8.0-openjdk-devel -y
 #### 📌 3. Download and Install Apache Tomcat 9.0.102
 
 ```bash
-sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.102/bin/apache-tomcat-9.0.102.zip
-sudo unzip apache-tomcat-9.0.102.zip
-sudo rm -f apache-tomcat-9.0.102.zip
+sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.105/bin/apache-tomcat-9.0.105.zip
+sudo unzip apache-tomcat-9.0.105.zip
+sudo rm -f apache-tomcat-9.0.105.zip
 
 # Rename for clarity
-sudo mv apache-tomcat-9.0.102 tomcat9
+sudo mv apache-tomcat-9.0.105 tomcat9
 ```
 
 ---
