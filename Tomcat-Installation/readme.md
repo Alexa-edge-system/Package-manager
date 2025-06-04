@@ -1,7 +1,3 @@
-Here is a clean and well-structured version of your **Apache Tomcat Installation and Setup Guide** for an **AWS EC2 RedHat Instance**, with your **company details** at the top. This can be used as a documentation page, blog post, or even for internal technical sharing.
-
----
-
 ## 🔧 Apache Tomcat Installation and Setup on AWS EC2 RedHat
 
 **Company:** Alexa Edge Systems – Paris, France
