@@ -37,7 +37,7 @@ sudo su - ec2-user
 ```bash
 cd /opt
 sudo yum install git wget unzip -y
-sudo yum install java-1.8.0-openjdk-devel -y
+sudo yum install java -y
 ```
 
 ---
