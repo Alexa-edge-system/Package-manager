@@ -12,7 +12,7 @@ Here is your **SonarQube Installation and Setup Guide** customized for **Alexa E
 
 ---
 
-## **SonarQube Installation and Setup in AWS EC2 Red Hat Instance**
+## **SonarQube Installation and Setup in AWS EC2 Red Hat and Amazon linux Instance**
 
 ### ✅ Prerequisites
 
