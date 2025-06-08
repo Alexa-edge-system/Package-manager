@@ -47,7 +47,8 @@ sudo yum remove java* -y
 sudo yum install fontconfig java-17-openjdk -y
 or
 sudo yum update
-sudo dnf install java-17-openjdk -y
+sudo dnf install java-17-amazon-corretto -y
+
 ```
 
 ---
