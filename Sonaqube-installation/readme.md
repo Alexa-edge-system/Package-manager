@@ -46,6 +46,7 @@ sudo yum -y install unzip wget git
 sudo yum remove java* -y
 sudo yum install fontconfig java-17-openjdk -y
 or
+sudo yum update
 sudo dnf install java-17-openjdk -y
 ```
 
