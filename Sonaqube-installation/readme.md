@@ -17,7 +17,7 @@ Here is your **SonarQube Installation and Setup Guide** customized for **Alexa E
 ### ✅ Prerequisites
 
 * AWS Account
-* EC2 Red Hat instance: **t2.medium (4GB RAM recommended)**
+* EC2 Red Hat instance or Amazon linux: **t2.medium (4GB RAM recommended)**
 * Open necessary ports (e.g. **9000** for SonarQube)
 * Attach the custom Security Group to the EC2 instance
 * Install Java OpenJDK 1.8+ (Java 17 for SonarQube 8.9.10)
@@ -45,6 +45,8 @@ cd /opt
 sudo yum -y install unzip wget git
 sudo yum remove java* -y
 sudo yum install fontconfig java-17-openjdk -y
+or
+sudo dnf install java-17-openjdk -y
 ```
 
 ---
