@@ -2,7 +2,7 @@ Here is your **SonarQube Installation and Setup Guide** customized for **Alexa E
 
 ---
 
-# **Alexa Edge Systems, Ontario, Canada**
+# **Alexa Edge Systems, Paris France**
 
 📞 **Contact:** +33-609-878-741
 
