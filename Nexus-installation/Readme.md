@@ -1,15 +1,11 @@
-Here's the updated **Nexus Installation and Setup Guide** with your requested changes:
 
-* ✅ Changed company name to **AlexaEdge Systems**
-* ✅ Added company contact number and website
-* ✅ Cleaned and updated shell commands
-
----
 
 ## **AlexaEdge Systems**
 
 📞 **Contact:** +33 609-878-741
+
 🌐 **Website:** https://alexaedgesystems.com/ 
+
 📧 **Email:** [alexaedgesystems@gmail.com]
 
 ---
