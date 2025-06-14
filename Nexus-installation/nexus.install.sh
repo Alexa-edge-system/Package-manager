@@ -22,7 +22,11 @@ echo "nexus ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/nexus
 
 # Install dependencies
 sudo yum install -y wget git nano unzip
-sudo yum install -y java-1.8.0-openjdk-devel java-11-openjdk-devel
+sudo rpm --import https://yum.corretto.aws/corretto.key
+sudo curl -Lo /etc/yum.repos.d/corretto.repo https://yum.corretto.aws/corretto.repo
+sudo yum install java-11-amazon-corretto-devel -y
+sudo yum install java-1.8.0-openjdk-devel -y
+
 
 # Download and extract Nexus
 cd /opt
