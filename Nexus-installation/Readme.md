@@ -50,8 +50,12 @@ exit
 sudo yum install wget git nano unzip -y
 
 # Install Java (OpenJDK 1.8 and 11)
-sudo yum install java-1.8.0-openjdk-devel java-11-openjdk-devel -y
-```
+sudo rpm --import https://yum.corretto.aws/corretto.key
+sudo curl -Lo /etc/yum.repos.d/corretto.repo https://yum.corretto.aws/corretto.repo
+sudo yum install java-11-amazon-corretto-devel -y
+sudo yum install java-1.8.0-openjdk-devel -y
+
+
 
 ---
 
