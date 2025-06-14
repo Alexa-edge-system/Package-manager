@@ -4,7 +4,7 @@
 #!/bin/bash
 
 # AlexaEdge Systems - Nexus Installation Script
-# Contact: +1437 215 2483 | Website: www.alexaedge.com
+# Contact: +33 609 878 741 | Website: www.alexaedge.com
 
 set -e
 
