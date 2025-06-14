@@ -1,6 +1,6 @@
 ### ✅ **Bash Script: `install_nexus.sh`**
 
-```bash
+
 #!/bin/bash
 
 # AlexaEdge Systems - Nexus Installation Script
@@ -59,24 +59,20 @@ echo "🔐 Default admin password:"
 sudo cat /opt/sonatype-work/nexus3/admin.password
 echo "🌐 Access Nexus: http://<your-ec2-public-ip>:8081"
 echo "✅ End of Nexus installation – AlexaEdge Systems"
-```
 
----
 
-### 📌 Instructions:
 
-1. **Create the script on your EC2:**
+# ### 📌 Instructions:
 
-   ```bash
-   nano install_nexus.sh
-   ```
+# 1. **Create the script on your EC2:**
 
-2. **Paste the script, then save and exit (`CTRL+X`, `Y`, `Enter`).**
+# nano install_nexus.sh
 
-3. **Make it executable and run:**
+# 2. **Paste the script, then save and exit (`CTRL+X`, `Y`, `Enter`).**
 
-   ```bash
-   chmod +x install_nexus.sh
-   ./install_nexus.sh
-   
+# 3. **Make it executable and run:**
+
+# chmod +x install_nexus.sh
+# ./install_nexus.sh
+
 
