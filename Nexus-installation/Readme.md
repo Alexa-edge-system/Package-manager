@@ -15,7 +15,7 @@
 ### 🔧 **Pre-requisites**
 
 * Valid **AWS Account**
-* Launch a **RedHat EC2 Instance** (t2.medium) with at least **4GB RAM**
+* Launch a **RedHat or amazon linux EC2 Instance** (t2.medium) with at least **4GB RAM**
 * Create and attach a **Security Group** with required open ports (e.g. `8081` for Nexus)
 * **Install OpenJDK 1.8+**
 
