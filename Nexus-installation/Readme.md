@@ -10,7 +10,7 @@
 
 ---
 
-# 🚀 Nexus Installation and Setup on AWS EC2 (RedHat – t2.medium)
+# 🚀 Nexus Installation and Setup on AWS EC2 (Amazon linux or RedHat – t2.medium)
 
 ### 🔧 **Pre-requisites**
 
