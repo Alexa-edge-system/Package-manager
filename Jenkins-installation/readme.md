@@ -30,11 +30,11 @@ You can start the Jenkins service with the command:
 
 You can check the status of the Jenkins service using the command:
 
- sudo systemctl status jenkins
+ -sudo systemctl status jenkins
 
 If everything has been set up correctly, you should see an output like this:
 
- Loaded: loaded (/lib/systemd/system/jenkins.service; enabled; vendor preset: enabled)
+ -Loaded: loaded (/lib/systemd/system/jenkins.service; enabled; vendor preset: enabled)
  Active: active (running) since Tue 2023-06-22 16:19:01 +03; 4min 57s ago
  ...
 
