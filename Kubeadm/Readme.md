@@ -49,7 +49,7 @@ sudo -i
 
 ---
 
-## 🚀 Common Setup Script (`common.sh`)
+## 🚀 Common Setup Script (`k8.sh`)
 
 Copy and run this script on **all Master and Worker nodes**.
 
