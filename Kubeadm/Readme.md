@@ -1,10 +1,12 @@
 
-🧭 Kubernetes Setup Using Kubeadm on AWS EC2 (Ubuntu)
+#🧭 Kubernetes Setup Using Kubeadm on AWS EC2 (Ubuntu)
 
 Author: Tita Lavet
+
 Website: https://alexaedgesystems.com/
 
 Contact: +33 (609 878 741)
+
 Email: alexaedgesystems@gmail.com
 
 ---
