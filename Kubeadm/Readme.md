@@ -180,6 +180,7 @@ kubectl get nodes -o wide
 # Get token
 ```bash
 kubeadm token create --print-join-command
+```
 ---
 
 ## 📞 Support
