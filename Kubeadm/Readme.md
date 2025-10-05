@@ -1,5 +1,5 @@
 
-#🧭 Kubernetes Setup Using Kubeadm on AWS EC2 (Ubuntu)
+#Kubernetes Setup Using Kubeadm on AWS EC2 (Ubuntu)
 
 Author: Tita Lavet
 
