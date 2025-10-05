@@ -127,6 +127,13 @@ systemctl enable kubelet.service
 
 ---
 
+exit as root user & execute the below commands as normal ubuntu user
+
+```bash
+sudo su - ubuntu
+```
+
+
 ## 🧩 Initialize Kubernetes Master Node
 
 Run on **Master Node**:
