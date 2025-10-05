@@ -181,9 +181,10 @@ kubectl get nodes -o wide
 ```bash
 kubeadm token create --print-join-command
 ```
+
 ---
 
-## 📞 Support
+# 📞 Support
 
 **Alexa edge systems**
 
